@@ -1,0 +1,70 @@
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    background-color: #11141a;
+}
+
+body{
+    background-color: #1f242d;
+    color: #fff;
+}
+
+.nav-pills .nav-item .nav-link{
+    color: #fff;
+
+}
+
+
+section:nth-child(odd){
+    background-color: #323946;
+}
+
+.skills-container{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.skills{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.skill-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+.skill-header{
+    width: 50%;
+    height: 100%;
+    margin-right: auto;
+}
+
+.pill{
+    width: 81px;
+    height: 40px;
+}
+
+.games{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+#myCarousel{
+    width: 55%;
+}
+
+.carousel-item{
+    height: 36rem;
+}
